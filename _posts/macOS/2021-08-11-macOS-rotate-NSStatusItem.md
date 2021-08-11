@@ -1,6 +1,6 @@
 ---
 title: "旋转菜单栏的 NSStatusItem"
-subtitle: ""
+subtitle: "NSStatusItem 设置旋转动画"
 layout: post
 author: "Yang"
 header-style: text
