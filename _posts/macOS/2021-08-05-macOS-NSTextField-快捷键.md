@@ -6,6 +6,7 @@ author: "Yang"
 header-style: text
 tags:
   - macOS
+  - Swift
 ---
 
 在 macOS 中，在 APP 中使用  ⌘C，⌘V，⌘Z，⌘X 这些基础的快捷键，这是因为菜单栏的“编辑”菜单中实现的功能，但有的时候 APP 没有菜单栏，比如 menu bar 类型的APP，并没有常见的菜单栏，在开发的时候就删除了。

@@ -7,6 +7,7 @@ header-style: text
 tags:
   - macOS
   - SwiftUI
+  - Swift
 ---
 
 在SwiftUI中，可以通过新建一个Swift文件来定义APP的入口，SwiftUI 有提供一个 Settings，可以直接导航至APP的偏好设置，PreferencesView 是偏好设置的 SwiftUI 的 View，这个时候通过快捷键 “**⌘,**” 便可以进入偏好设置。
