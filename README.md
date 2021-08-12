@@ -3,4 +3,4 @@
 
 > 世界那么有趣 怎么能一直叹气
 
-![](http://huangxuan.me/img/about-bg-walle.jpg)
+![](/img/about-bg-walle.jpg)
