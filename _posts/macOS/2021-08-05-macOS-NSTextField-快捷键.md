@@ -9,7 +9,7 @@ tags:
   - Swift
 ---
 
-在 macOS 中，在 APP 中使用  ⌘C，⌘V，⌘Z，⌘X 这些基础的快捷键，这是因为菜单栏的“编辑”菜单中实现的功能，但有的时候 APP 没有菜单栏，比如 menu bar 类型的APP，并没有常见的菜单栏，在开发的时候就删除了。
+在 macOS 中，在 APP 中使用  ⌘C，⌘V，⌘Z，⌘X 这些基础的快捷键，这是因为菜单栏的“编辑”菜单中实现了相应的功能，但有的时候 APP 没有菜单栏，比如 menu bar 类型的APP，并没有常见的菜单栏，在开发的时候就删除了，而且一不小心还发现不了 NSTextField 的快捷功能消失了。
 
 ![](/img/in-post/post_storyboard_menu.png)
 

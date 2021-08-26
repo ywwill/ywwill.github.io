@@ -10,7 +10,7 @@ tags:
   - Swift
 ---
 
-在SwiftUI中，可以通过新建一个Swift文件来定义APP的入口，SwiftUI 有提供一个 Settings，可以直接导航至APP的偏好设置，PreferencesView 是偏好设置的 SwiftUI 的 View，这个时候通过快捷键 “**⌘,**” 便可以进入偏好设置。
+在 SwiftUI 中，可以通过新建一个 SwiftUI 文件来定义APP的入口，SwiftUI 有提供一个 Settings 的 View，可以直接导航至APP 的偏好设置，PreferencesView 是自定义的偏好设置的 SwiftUI 的 View，这个时候通过快捷键 “**⌘,**”  便可以进入偏好设置页面，使用这个 Settings 确实可以提供一些便利，但是也会出现一些意想不到的问题，这个应该是 SwiftUI 的问题，希望以后会优化吧。
 
 ```swift
 import SwiftUI
