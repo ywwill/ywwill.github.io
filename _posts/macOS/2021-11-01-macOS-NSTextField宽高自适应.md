@@ -9,7 +9,7 @@ tags:
   - Swift
 ---
 
-需求：在修改 NSTextField 的内容和字体的时候，NSTextField 的宽高自适应。开始的想法是计算它的文本宽高，然后根据计算的结果来设置 frame，这个想法是从 iOS 开发上来的，用的方法是 NSString 的 ，这个计算出来的结果会明显偏小，导致文本内容显示不全。
+需求：在修改 NSTextField 的内容和字体的时候，NSTextField 的宽高自适应。开始的想法是计算它的文本宽高，然后根据计算的结果来设置 frame，这个思维习惯是从 iOS 开发来的，用的方法是 NSString 的 ，这个计算出来的结果会明显偏小，导致文本内容显示不全，不符合预期。
 
 ```swift
 func boundingRect(with size: NSSize, 
@@ -32,6 +32,9 @@ label.stringValue = "100"
 label.font = NSFont(name: "PingFang SC", size: NSFont.systemFontSize)
 let size = resultLabel.sizeThatFits(NSSize(width: 200, height: 200))
 
-label.frame = NSRect(x: label.frame.origin.x, y: label.frame.origin.y, width: size.width, 	height: size.height)
+label.frame = NSRect(x: label.frame.origin.x, 
+                     y: label.frame.origin.y,
+                     width: size.width, 	
+                     height: size.height)
 ```
 
